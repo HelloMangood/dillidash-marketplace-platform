@@ -1,0 +1,27 @@
+{
+  "name": "quick-commerce-frontend",
+  "version": "1.0.0",
+  "description": "Frontend interface for the Quick Commerce MVP, allowing users to discover local stores, browse products, and place orders.",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "@mantine/core": "7.17.3",
+    "@mantine/form": "7.17.3",
+    "react-router-dom": "7.5.0",
+    "axios": "1.8.4"
+  },
+  "devDependencies": {
+    "vite": "6.2.5",
+    "@vitejs/plugin-react": "4.3.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
